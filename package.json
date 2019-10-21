@@ -1,0 +1,23 @@
+{
+  "name": "CHOOOSE",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Belhassen Gharsallah",
+  "license": "MIT",
+  "scripts": {
+    "develop": "nodemon --exec babel-node ./general-test.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "babel-plugin-lodash": "^3.3.4",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "@js-joda/core": "^1.11.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0"
+  }
+}
